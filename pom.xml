@@ -8,6 +8,14 @@
     <packaging>jar</packaging>
     <name>Blog Posts</name>
     <description>Misc Blog Posts</description>
+           <repositories>
+    <repository>
+      <id>my-repo1</id>
+      <name>your custom repo</name>
+      <url>http://clojars.org/repo/</url>
+    </repository>
+
+  </repositories>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
